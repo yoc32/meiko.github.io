@@ -1,0 +1,661 @@
+html, body {   height: 100%;
+  width: 100%;
+}
+
+/*
+=========基本=======
+*/
+
+.featurette-divider{
+  margin-top: 50px;
+  margin-bottom: 130px;
+  border:10px
+}
+.container-tittle h1{
+    font-size: 6em;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.cover-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .text-top h1,.text-top h3, .featurette-heading-takenaka,.featurette-heading,.container-tittle, .featurette-heading-takenaka,.featurette-heading{
+
+  font-family: "source-han-sans-japanese",sans-serif;
+  width: 100%
+   }
+
+
+/* Content styles
+-------------------------------------------------- */
+/* Products */
+
+
+.panel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.85;
+}
+
+.p-center{
+text-align: center;
+}
+
+
+
+.lead-project {
+  font-size: 16px;
+}
+
+.coll-tit {
+  position: absolute;
+  z-index: 15;
+  padding-top: 1%;
+  padding-bottom: -5%;
+}
+
+.coll-tit h1{
+  text-align: center;
+  font-size: 6em;
+  color: #fff;
+/*  margin-top: 20px;
+*/  margin-bottom: 0px;
+
+}
+
+/*Research*/
+.reseach-ka{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+
+}
+
+.reseach-ka h2{
+  font-size: 1.7em;
+}
+.reseach-ka h3{
+  font-size: 1.1em;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.researh-Update{
+  font-size: 1em;
+}
+
+/* our factory */
+.video{
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+.video iframe{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+
+
+/*
+パララクスの設定
+各デバイス用に分けやすくするため、
+767で分けている
+970
+*/
+/*==================================================
+=            Bootstrap 3 メディア・クエリ             =
+==================================================*/
+
+/*==========  モバイル・ファーストの場合  ==========*/
+
+/* カスタム, iPhone Retinaディスプレイ */ 
+@media only screen and (min-width : 320px) {
+ .text-top h1{
+    font-size: 2.6em;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 0.5em
+  }
+   .text-top h2{
+    font-size: 0.1em;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    visibility: hidden;
+  }
+  .text-top h3 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: -10px;
+  }
+
+  .desc h3{
+       visibility: hidden;
+       font-size: 0.1em;
+       margin-top: 0px;
+      margin-bottom: 0px;
+ 
+   }
+
+   .text-top > .btn{
+     margin-bottom: 20px;
+   }
+
+   #home {
+     background: url(../images/coll_ima/c1.jpg) no-repeat center center;
+     display: table;
+     width: 100%;
+     height: 100%;
+     position: relative;
+
+     margin-top: 50px;
+
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+
+    #products-detail {
+     background: url(../images/room3.jpg) no-repeat center center;
+     display: table;
+     width: 100%;
+     height: auto;
+     position: relative;
+
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+
+   .container-tittle h1{
+     font-size: 3.5em;
+     font-weight: 700;
+   }
+   .featurette-heading  {
+     font-size: 2.5em;
+   text-align: left;
+   padding-bottom: 0.8em;
+
+
+  
+    }
+    .featurette-heading-takenaka  {
+       font-size: 2.5em;
+       text-align: left;
+       font-weight: 700;
+       font-variant: small-caps;
+
+  
+    }
+  .coll-tit {
+    width: 110%;
+  }
+  .san-ni h2{
+    color: #fff;
+    text-align: center;
+    font-size: 0.1em;
+    visibility: hidden;
+  }
+  .san-ichi img{
+    padding-top: 0em;
+  }
+  img.sani{
+    max-height: 130px;
+  }
+  img.sanichi{
+    max-height: 30px;
+  }
+  .researh-Update{
+    font-size: 0.7em;
+  }
+  
+
+}
+
+/*iPhone6縦*/
+@media only screen and (min-width : 374px) {
+  img.sani{
+  max-height: 170px;
+  }
+  img.sanichi{
+  max-height: 50px;
+}
+
+/*iPhone6Plus縦*/
+@media only screen and (min-width : 410px) {
+  img.sani{
+  max-height: 170px;
+  }
+  img.sanichi{
+  max-height: 80px;
+  }
+
+}
+
+/* XSサイズ : Extra Small Devices, Phones iPhone5横*/ 
+@media only screen and (min-width : 480px) {
+ .text-top h1{
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+   .text-top h2{
+    font-size: 0.1em;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    visibility: hidden;
+  }
+  .text-top h3 {
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: -10px;
+  }
+
+  .text-top > .btn{
+    margin-bottom: 20px;
+  }
+
+  #home {
+    background: url(../images/coll_ima/c1.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    margin-top: 50px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+   #products-detail {
+    background: url(../images/room3.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+   .container-tittle h1{
+    font-size: 5em;
+  }
+
+  .featurette-heading  {
+    font-size: 3em;
+  padding-bottom: 0.8em;
+  
+  }
+  .featurette-heading-takenaka  {
+    font-size: 3em;
+  }
+  .logo img {
+
+  max-width: 50%;
+  }
+
+  .coll-tit {
+  width: 110%;
+  }
+    .san-ni h2{
+    color: #fff;
+    text-align: center;
+    font-size: 0em;
+    line-height: 0em;
+    visibility: hidden;
+  }
+    .san-ni img{
+      max-height:80px;
+    }
+  .san-ichi img{
+    padding-top: 0em;
+    max-height:40px;
+  }
+  .sansan{
+    display: inline-block;
+    margin: 0, auto;
+  }
+  img.sani{
+    max-height: 110px;
+    max-width: 110px;
+  }
+  img.sanichi{
+    max-height: 45px;
+      max-width: 45px;
+  
+  }
+}
+
+/*iPhone5*/
+@media only screen and (min-width : 566px) {
+  img.sani{
+  max-height: 120px;
+  max-width: 120px;
+  }
+  img.sanichi{
+  max-height: 76px;
+    max-width: 76px;
+
+  }
+}
+
+/*iPhone6*/
+@media only screen and (min-width : 666px) {
+  img.sani{
+  max-height: 150px;
+  max-width: 150px;
+  }
+  img.sanichi{
+   max-height: 86px;
+   max-width: 86px;
+
+  }
+}
+
+/*iPhone6Plus*/
+@media only screen and (min-width : 735px) {
+  img.sani{
+  max-height: 164px;
+  max-width: 164px;
+  }
+  img.sanichi{
+    max-height: 110px;
+    max-width: 110px;
+
+  }
+}
+/* Sサイズ、タブレット : Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .text-top h1,.text-top h3 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 800;
+   }
+
+  .text-top h2{
+     font-size: 3em;
+     color: #fff;
+   }  
+  .text-top h4{
+     font-size: 2em;
+     color: #fff;
+   }  
+   #home {
+     background: url(../images/coll_ima/c1.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width:100%;
+     -webkit-background-size: contain;
+     -moz-background-size: contain;
+     -o-background-size: contain;
+     background-size: contain;
+   }  
+   #products-detail {
+     background: url(../images/room3.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  }
+  .container-tittle h1{
+    font-size: 6em;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-weight: 800;
+  }
+  .featurette-heading  {
+  font-size: 4em;
+
+  fopadding-bottom: 0.8em;
+  
+  }
+  .featurette-heading-takenaka  {
+    font-size: 4em;
+  }
+    .desc h3{
+         visibility: visible;
+         font-size: 1.5em;
+         text-align: center;
+         margin-top: 20px;
+         margin-bottom: 10px;
+
+ 
+  }
+  .service img {
+
+  min-width: 70%;
+
+  }
+  .cplus{
+    max-width: 80px;
+  }
+
+  .coll-tit {
+  width: 105%;
+  }
+
+  .san-ni h2{
+  color: #fff;
+  text-align: center;
+  font-size: 0.8em;
+    line-height: 1em;
+
+   visibility: visible;
+   font-weight: 600;
+
+  }
+  .san-ni img{
+    max-width: 800px;
+    max-height: 800px;
+  }
+  .san-ichi img{
+  padding-top: 4em;
+  max-height:650px;
+  }
+
+}
+
+/* Mサイズ、デスクトップ : Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .text-top h1,.text-top h3 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 800;
+   }
+
+  .text-top h2{
+     font-size: 3em;
+     color: #fff;
+   }  
+  .text-top h4{
+     font-size: 2em;
+     color: #ff0;
+   }  
+   #home {
+     background: url(../images/coll_ima/c1.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width:100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }  
+   #products-detail {
+     background: url(../images/our_factory/factory/ima02.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  }
+  .container-tittle h1{
+    font-size: 6em;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-weight: 800;
+  }
+
+  .coll-tit {
+   width: 104%;
+  }
+
+  .san-ni h2{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  visibility: visible;
+  font-weight: 800;
+  }
+
+  .san-ichi img{
+  padding-top: 6em;
+  }
+
+  .reseach-ka h2{
+  font-size: 2.3em;
+  }
+
+  .reseach-ka h3{
+  font-size: 1.1em;
+  }
+}
+
+/* Lサイズ、ワイドスクリーン : Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .text-top h1,.text-top h3 {
+    font-size: 3em;
+    color: #fff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 800;
+    }
+
+  .text-top h2{
+     font-size: 3em;
+     color: #fff;
+   }
+
+
+  .text-top h4{
+     font-size: 2em;
+     color: #ff0;
+   }
+   #home {
+     background: url(../images/coll_ima/c1.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width:100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+   #products-detail {
+     background: url(../images/room3.jpg) no-repeat center center fixed;
+     display: table;
+     height: 100%;
+     position: relative;
+     width: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    }
+
+  .container-tittle h1{
+    font-size: 6em;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    font-weight: 800;
+  }
+  .coll-tit {
+  width: 102%;
+  }
+
+  .san-ni h2{
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  visibility: visible;
+  font-weight: 500;
+  }
+
+  .san-ichi img{
+  padding-top: 7em;
+  }
+
+  .reseach-ka h3{
+  font-size: 1.2em;
+
+  }
+  .researh-Update{
+  font-size: 0.6em;
+  }
+
+}
+
+@media only screen and (min-width : 1700px) {
+  .san-ni h2{
+    font-size: 2em;
+
+  }
+  .san-ichi img{
+  padding-top: 9em;
+  }
+
+}
+
+@media only screen and (min-width : 1900px) {
+  .san-ni h2{
+    font-size: 2.5em;
+  visibility: hidden;
+  }
+
+}
+ 
+
+
+.m-fix{
+  padding-top: 3em;
+}
+
+body {
+  position: relative;
+}
+
+/*.navbar-header{
+  font-weight: 800;
+}*/

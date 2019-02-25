@@ -1,0 +1,121 @@
+
+.navbar-wrapper {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+.navbar-wrapper > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-wrapper .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel .item {
+    background-color: #777;
+    height: 500px;
+}
+.carousel-inner > .item > img {
+    height: 500px;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+}
+.marketing .col-lg-7 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 900;
+}
+.marketing .col-lg-5 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.featurette-divider {
+    margin: 150px 0;
+}
+.featurette-heading {
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #000;
+}
+.sukima{
+    padding: 15% 0% 0%;
+}
+
+@media@media (max-width: 767px) {
+
+.navbar-wrapper {
+    margin-top: 20px;
+}
+.navbar-wrapper .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-wrapper .navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-wrapper .navbar {
+    border-radius: 4px;
+}
+.carousel {
+    height: 800px;
+    margin-bottom: 60px;
+}
+.carousel .item {
+    background-color: #A77;
+    height: 800px;
+}
+.carousel-inner > .item > img {
+    height: 800px;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+}
+.carousel-caption p {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.featurette-heading {
+    font-size: 50px;
+}
+
+  #home {
+    background: url(../images/texure/WhiteBars.jpg) no-repeat center center;
+    display: table;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    margin-top: 50px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+.featurette-heading {
+    margin-top: 10px;
+}
+}
